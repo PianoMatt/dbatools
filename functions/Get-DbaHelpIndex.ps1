@@ -31,7 +31,7 @@ function Get-DbaHelpIndex {
 
         .PARAMETER SqlCredential
             Allows you to login to servers using SQL Logins as opposed to Windows Auth/Integrated/Trusted. To use:
-
+  
             $cred = Get-Credential, then pass $cred variable to this parameter.
 
             Windows Authentication will be used when SqlCredential is not specified. To connect as a different Windows use
